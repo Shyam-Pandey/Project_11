@@ -1,0 +1,602 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+    margin: 0;
+    padding: 0%;
+    font-family: "Poppins";
+
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* --------------------------- Navigation Bar --------------------------------*/
+.logo {
+    margin-top: 2rem;
+}
+
+.logo img {
+    width: 8rem;
+    height: 7rem;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.naav-bar {
+    display: flex;
+}
+
+.unorder-list {
+    display: flex;
+    margin-top: 3.7rem;
+}
+
+ul li {
+    list-style: none;
+    padding: 0 1rem 0 1rem;
+}
+
+.register {
+    margin-top: 2rem;
+    margin-left: -30rem;
+    width: 17rem;
+    height: 4.5rem;
+    background-color: #ffff;
+    color: #0189f0;
+    border: .2rem solid #0189f0;
+    border-radius: 1.2rem;
+    text-shadow: .1rem 0px #0189f0;
+    font-weight: 20;
+    font-size: 1rem;
+}
+
+/* --------------------------- Hosting --------------------------------*/
+.hosting {
+    display: flex;
+    margin-top: 9rem;
+    margin-left: 17rem;
+}
+
+.txt h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+#package {
+    margin-top: 2rem;
+    width: 17rem;
+    height: 4.5rem;
+    background-color: #0189f0;
+    color: white;
+    border: none;
+    border-radius: 1.2rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.host-img img {
+    width: 40rem;
+    height: 35rem;
+    margin-left: 193px;
+}
+
+/* ------------------------ Testing ---------------------- */
+.testing {
+    display: flex;
+    margin-top: 9rem;
+    margin-left: 17rem;
+}
+
+.test-img img {
+    width: 43.9rem;
+    height: 39rem;
+}
+
+.test-text-bt {
+    margin-top: 4.9rem;
+    margin-left: 19.3rem;
+}
+
+/* ------------------------ Technical Support ---------------------- */
+.tech-support {
+    display: flex;
+    margin-top: 9rem;
+    margin-left: 17rem;
+}
+
+.tech-img img {
+    width: 43.9rem;
+    height: 39rem;
+    margin-left: 19.3rem;
+}
+
+.tech-text-bt {
+    margin-top: 6.9rem;
+}
+
+/* ------------------------ Services ---------------------- */
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
+
+.serv-head {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin-left: 2rem;
+}
+
+.service-type {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1.2rem;
+}
+
+.service-items {
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.services {
+    margin-left: 2.1rem;
+}
+
+.text {
+    font-size: 1.3rem;
+}
+
+.serv {
+    width: 5rem;
+    height: 4.5rem;
+}
+
+.service-type {
+    width: 80%;
+    height: 27rem;
+    margin-left: 8%;
+    margin-right: 10%;
+}
+
+/* ------------------------ Pricing ---------------------- */
+.pricing {
+    background-color: #0189f0;
+    margin-top: 10rem;
+    padding: 2% 3% 0%;
+    width: 94%;
+    height: 90vh;
+}
+
+.price-head {
+    text-align: center;
+    color: #ffff;
+}
+
+.different-pricing {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 19rem;
+    margin: 0 0;
+}
+
+.price1 {
+    margin: 3rem 0;
+    width: 25rem;
+    height: 45rem;
+    background-color: #ffff;
+    border-radius: 1rem;
+}
+
+.black-bg {
+    padding: 1.5rem 1.8rem;
+    margin-bottom: 2rem;
+    margin-left: 1.7rem;
+}
+
+.black-bg h3 {
+    color: #ffff;
+    font-size: 17px;
+}
+
+.black-bg p {
+    color: #ffff;
+    font-size: 1.4rem;
+}
+
+.same-head {
+    color: black;
+    font-size: 1.7rem;
+}
+
+.price-block {
+    margin-top: 2.4rem;
+    margin-left: 3.3rem;
+    margin-bottom: 4.7rem;
+}
+
+.price {
+    background-color: rgba(0, 0, 0, 0.85);
+    height: 9rem;
+    border-radius: 1rem;
+}
+
+.details {
+    display: flex;
+    padding: 1rem;
+}
+
+.details img {
+    width: 1.7rem;
+    height: 1.7rem;
+}
+
+.details p {
+    font-size: 1.4rem;
+}
+
+.features {
+    margin: 2.3rem 2.2rem;
+}
+
+.choose-plan {
+    margin: -.7rem 2.6rem;
+}
+
+.choose-plan1 {
+    margin: -1.4rem 2.6rem;
+}
+
+.choose-plan h2,
+.choose-plan1 p {
+    text-align: center;
+}
+
+.choose-plan1 h2,
+.choose-plan1 p {
+    text-align: center;
+}
+
+.choose-plan h2 span {
+    color: #9c9c9c;
+}
+
+.choose-plan-btn {
+    margin: 1rem 4.2rem;
+    width: 15rem;
+    height: 3.7rem;
+    background-color: #ffff;
+    color: #0189f0;
+    ;
+    border: .2rem solid #0189f0;
+    border-radius: 1.2rem;
+    text-shadow: .1rem 0 #0189f0;
+    font-weight: 15;
+}
+
+.choose-plan-mid-btn {
+    margin: 1.5rem 4.2rem;
+    width: 15rem;
+    height: 3.7rem;
+    background-color: #0189f0;
+    color: white;
+    border: none;
+    border-radius: 1.2rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
+}
+
+/* ------------------------ Customer Review ---------------------- */
+.customer {
+    margin: 10rem 0;
+}
+
+.customers h1 {
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+.customers p {
+    font-size: 1.2rem;
+}
+.customer-para1,.customer-para2 {
+    text-align: center;
+}
+
+.customer-review {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 26rem;
+}
+
+.review {
+    margin: 1.2rem .8rem;
+    box-shadow: 0 .4rem .8rem 0 rgba(0, 0, 0, 0.2);
+    width: 30vw;
+    height: 18rem;
+}
+
+.review p:first-child {
+    margin: 2rem 3rem;
+}
+
+.img-author {
+    display: flex;
+    margin: 1rem 3.5rem;
+}
+
+.auth-company {
+    margin: 1rem 1rem;
+}
+
+.register-now {
+    background-image: url("/Project_11/images/footer-bg.svg");
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    background-size: cover;
+}
+
+.reg-text h1 {
+    color: #ffff;
+    font-size: 3.4rem;
+    margin: 5rem 7rem;
+}
+
+.reg-text p {
+    font-size: 1.6rem;
+    margin: 5rem 7rem;
+    color: #ffff;
+}
+
+.register-now2 {
+    margin-top: 10rem;
+    margin-left: 10rem;
+    width: 17rem;
+    height: 4.5rem;
+    background: none;
+    color: #ffff;
+    border: .2rem solid #ffff;
+    border-radius: 1.2rem;
+    text-shadow: .1rem 0 #ffff;
+    font-weight: 15;
+}
+
+/* ------------------------ Footer ---------------------- */
+.ftr {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10rem;
+}
+
+.div-itm img:first-child {
+    width: 9rem;
+    height: 10rem;
+    ;
+    margin-top: -2rem;
+}
+
+.div-itm {
+    width: 27rem;
+    height: 20rem;
+    margin-bottom: 10rem;
+}
+
+.div-itm h4 {
+    padding: 1rem 0;
+    font-size: 1.8rem;
+}
+
+.div-itm p {
+    color: #A1A7B6;
+    padding: 1rem 0;
+}
+
+
+@media(max-width:348px) {
+    html {
+        font-size: 20%;
+    }
+    .naav-bar {
+        display: none;
+    }
+    .ftr {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .logo img {
+        width: 11rem;
+        height: 8rem;
+    }
+    .register {
+     
+        width: 23rem;
+        height: 6.5rem;
+        font-size: 10px;
+    }
+
+    .hosting {
+        display: flex;
+        flex-direction: column;
+    }
+    .host-img img {
+        width: 50rem;
+    height: 43rem;
+    margin-left: 11.5rem;
+    margin-top: 10rem;
+    }
+    .txt h1 {
+        font-size: 5rem;
+    }
+    .txt p {
+        font-size: 2.3rem;
+        margin-right: 2rem;
+        width: 70rem;
+    }
+    #package {
+        margin-top: 2rem;
+        width: 20rem;
+        height: 6.5rem;
+    }
+    .testing {
+        display: flex;
+        margin-top: 9rem;
+        flex-direction: column-reverse;
+    }
+    .test-text-bt {
+        margin-top: 4.9rem;
+        margin-left: 2rem;
+    }
+    .test-txt h1{
+        font-size: 5rem;
+    }
+    .test-txt p{
+        font-size: 2.3rem;
+        margin-right: 2rem;
+        width: 70rem;
+    }
+    .test-img img {
+        width: 50rem;
+        height: 43rem;
+        margin-left: 11.5rem;
+        margin-top: 10rem;
+    }
+    .tech-support {
+        display: flex;
+        flex-direction: column;
+    }
+    .tech-txt h1{
+        font-size: 5rem;
+    }
+    .tech-txt p{
+        font-size: 2.3rem;
+        margin-right: 2rem;
+        width: 70rem;
+    }
+    .tech-img img{
+        width: 50rem;
+        height: 43rem;
+        margin-left: 11.5rem;
+        margin-top: 10rem;  
+    }
+    .service-type {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .serv-head {
+        display: flex;
+        margin-left: 11rem;
+        flex-direction: column;
+    }
+
+    .serv-head h1{
+        font-size: 4rem;
+    }
+    .serv-head p{
+        font-size: 2.3rem;
+    }
+    .text{
+        font-size: 2.5rem;
+    }
+    .pricing {
+        width: 94%;
+        height: 117vh;
+        margin-top: 77rem;
+    }
+    .different-pricing {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .price1 {
+        margin: 3rem 0;
+        width: 55rem;
+        height: 65rem;
+    }
+    .price-head h2{
+        font-size: 4rem;
+    }
+    .same-head {
+        font-size: 4rem;
+    }
+    .price-block p{
+        font-size: 3rem;
+    }
+    .details p {
+        font-size: 2.4rem;
+    }
+    .details img {
+        margin: 0 2rem;
+        width: 2.7rem;
+        height: 2.7rem;
+    }
+    .choose-plan1 h2, .choose-plan1 p,.choose-plan h2 {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    .choose-plan-btn,.choose-plan-mid-btn {
+        width: 24rem;
+        height: 5.7rem;
+       font-size: 2rem;
+       margin: 3rem 12rem;
+    }
+    .choose-plan p {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    .img-author img {
+        width: 8rem;
+        height: 8rem;
+    }
+    .customer-review {
+        display: grid;
+        grid-template-columns: auto ;
+        padding: 0 15rem;
+    }
+    .review {
+        width: 69vw;
+        height: 33rem;
+    }
+    .review p:first-child {
+        margin: 6rem 3rem;
+        font-size: 2.4rem;
+    }
+    .auth-company h4,.auth-company p{
+        font-size: 2.4rem;
+    }
+
+    .reg-text h1{
+          font-size: 4rem;
+    }
+
+    .reg-text p {
+        font-size: 2.6rem;
+  }
+  .register-now2 {
+    width: 24rem;
+    height: 7.5rem;
+    font-size: 3rem;
+    margin: 6rem;
+}
+
+.register-now{
+    height: 40rem;
+}
+
+.div-itm img:first-child {
+    width: 12rem;
+}
+.div-itm h4 {
+    font-size: 3.4rem;
+    /* padding: 1rem 0; */
+    margin-top: 5rem;
+}
+.div-itm p {
+    font-size: 2.6rem;
+}
+  
+}
