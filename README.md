@@ -9,7 +9,7 @@
 ## Preview
 ![See Preview](https://github.com/Shyam-Pandey/Project_11/blob/master/images/download%20(1).png?raw=true)
 ## Live Link
-[Link](https://interior-designing97.netlify.app)
+[Link](https://host-your-own.netlify.app)
 
 ## Author and Contact
 - [Shyam Pandey](https://github.com/Shyam-Pandey)
